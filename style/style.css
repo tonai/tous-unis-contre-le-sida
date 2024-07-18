@@ -1,0 +1,445 @@
+﻿* {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+a img
+{
+	border: none;
+}
+
+p
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+hr
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+dl
+{
+	text-align: justify;
+	margin-left: 20px;
+	margin: 10px 20px 10px 20px;
+}
+
+	dl dd
+	{
+		text-indent: 20px;
+	}
+
+.error
+{
+	color: red;
+}
+
+.center
+{
+	text-align: center;
+}
+
+.left
+{
+	float: left;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.right
+{
+	float: right;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.inputText
+{
+	width: 500px;
+}
+
+body {
+	margin: auto;
+	background-color: #c7c7c7;
+}
+
+#header {
+	height: 170px;
+	border-bottom: 1px solid #ac2828;
+	background-color: white;
+	margin-top: 0px;
+}
+
+	#header div {
+		width: 1000px;
+		height: 150px;
+		text-align: center;
+		margin: auto;
+		padding-top: 10px;
+	}
+		
+		#header div img {
+			float: left;
+		}
+		
+		#header div strong {
+			display: block;
+			color: #ac2828;
+			font-size: 400%;
+			padding-top: 20px;
+		}
+		
+		#header div > ul {
+			margin-top: 24px;
+			margin-left: 200px;
+		}
+		
+			#header div > ul > li {
+				float: left;
+			}
+			
+				#header div > ul > li > a {
+					display: block;
+					width: 100px;
+					height: 30px;
+					padding-top: 10px;
+					color: white;
+					background-color: #ac2828;
+				}
+				
+				#header div > ul > li > a:hover {
+					background-color: red;
+					text-decoration: none;
+				}
+				
+					#header div ul li ul {
+						display: none;
+						position: relative;
+					}
+					
+					#header div ul li:hover ul {
+						display: block;
+					}
+						
+							#header div ul li ul li a {
+								display: block;
+								width: 100px;
+								height: 20px;
+								color: white;
+								background-color: #ac2828;
+							}
+							
+							#header div ul li ul li a:hover {
+								background-color: red;
+								text-decoration: none;
+							}
+
+#page {
+	width: 1000px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+	#page #menuDroite {
+		float: right;
+		width: 200px;
+		text-align: center;
+		background-color: white;
+	}
+		
+		#page #menuDroite #accesRapide ul {
+			width: 180px;
+			margin: 10px;
+			background-color: #c7c7c7;
+			padding-top: 1px;
+			padding-bottom: 1px;
+			}
+				
+				#page #menuDroite #accesRapide ul li a {
+					display: block;
+					width: 160px;
+					height: 30px;
+					margin: 10px;
+					padding-top: 10px;
+					color: #ac2828;
+				}
+				
+				#page #menuDroite #accesRapide ul li a:hover {
+					color: white;
+					background-color: #ac2828;
+					text-decoration: none;
+				}
+		
+		#page #menuDroite #administration ul {	
+			width: 200px;
+			text-align: center;
+		}
+		
+			#page #menuDroite #administration ul li {
+				margin-top: 1px;
+			}
+			
+				#page #menuDroite #administration ul li a {
+					display: block;
+					color: white;
+					background-color: #ac2828;
+					height: 20px;
+				}
+				
+				#page #menuDroite #administration ul li a:hover {
+					background-color: red;
+					text-decoration: none;
+				}
+		
+		#page #menuDroite .bandeau {
+			margin-top: 0px;
+			background-color: #415dae;
+			color: white;
+		}
+		
+			#page #menuDroite .bandeau  a {
+				color: white;
+			}
+		
+	/*
+		#page div ul li a {
+			display: block;
+			margin: auto;
+			width: 150px;
+			height: 28px;
+			padding-top: 2px;
+			font-size: 20px;
+			background-image: url("barreMenu3.png");
+			margin-top: 10px;
+			margin-bottom: 10px;
+			color: white;
+		}
+		
+		#page div ul li a:hover {
+			background-position: 0px -30px;
+		}
+	*/
+	#page #corps {
+		width: 750px;
+		/*height: 1070px;*/
+		/*background-image: url("fond.jpg");*/
+		background-color: white;
+		margin-bottom: 20px;
+	}
+	
+		#page #corps div {
+			text-align: center;
+		}
+		
+		#page #corps #navigation {
+			height: 30px;
+			background-color: #415dae;
+			text-align: justify;
+			padding-left: 20px;
+			color: white;
+			padding-top: 0px;
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		
+			#page #corps #navigation a {
+				color: white;
+			}
+			
+			#page #corps div table {
+				margin:auto;
+			}
+			
+			#page #corps div form {
+				margin-bottom: 20px;
+			}
+		
+				#page #corps div fieldset {
+					width: 670px;
+					padding: 20px;
+					margin: auto;
+				}
+				
+				#page #corps div ul {
+					width: 590px;
+					padding-left: 20px;
+					padding-right: 20px;
+					margin-left: 40px;
+					text-align: justify;
+					list-style-type: disc;
+				}
+					
+					#page #corps div ul li ul {
+						width: 550px;
+						padding-left: 0px;
+						padding-right: 0px;
+						margin-left: 40px;
+						text-align: justify;
+						list-style-type: circle;
+					}
+				
+					#page #corps div fieldset legend {
+						color: #415dae;
+					}
+					
+					#page #corps  div fieldset textarea{
+						width: 600px;
+						height: 100px;
+						margin-top: 10px;
+						margin-bottom: 10px;
+					}
+			
+			#page #corps #accueil p, #page #corps #association p, #page #corps #sida p, #page #corps #news p, #page #corps #login p, .news p {
+				width: 630px;
+				padding-left: 20px;
+				padding-right: 20px;
+				text-align: justify;
+				text-indent: 50px;
+			}
+			
+		#page #corps #login form fieldset {
+			text-align: justify;
+		}
+		
+			#page #corps #login form fieldset table {
+				width: 600px;
+				margin-top: 20px;
+				margin-bottom: 20px;
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			
+				#page #corps #login form fieldset table thead {
+					color: #415dae;
+				}
+				
+				#page #corps #login form fieldset table td {
+					width: 100px;
+					text-align: center;
+					border: 1px solid black;
+				}
+				
+				#page #corps #login form fieldset table .firstColumn {
+					width: 300px;
+				}
+		
+		#page #corps #galerie table {
+			border-collapse: collapse;
+		}
+		
+			#page #corps #galerie table tr {
+				height: 200px;
+			}
+		
+				#page #corps #galerie table tr td {
+					width: 186px;
+				}
+		
+		#page #corps #evenements {
+			position: relative;
+		}
+		
+			#page #corps #evenements #descriptionEvenement {
+				position: absolute;
+				display: none;
+				width: 400px;
+				overflow: auto;
+				background-color: white;
+				border: 1px solid black;
+			}
+			
+			#page #corps #evenements table {
+				width: 560px;
+				border-collapse: collapse;
+				border: 1px solid black;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			
+				#page #corps #evenements table caption {
+					font-size: 300%;
+					border: 1px solid black;
+					color: #415dae;
+					margin: auto;
+				}
+				
+					#page #corps #evenements table tr td {
+						width: 80px;
+						height: 80px;
+						border: 1px solid black;
+					}
+					
+						#page #corps #evenements table tr td a {
+							display: block;
+							width: 80px;
+							height: 80px;
+							background-color: #ac2828;
+							color: white;
+						}
+						
+						#page #corps #evenements table tr td a:hover {
+							background-color: red;
+							text-decoration: none;
+						}
+		
+		#page #corps #plan {
+			text-align: justify;
+			margin-left: 100px;
+		}
+		
+			#page #corps #plan ul {
+				list-style-type: disc;
+				margin-bottom: 20px;
+			}
+			
+				#page #corps #plan ul ul {
+					list-style-type: circle;
+					margin-left: 20px;
+					margin-bottom: 0px;
+				}
+		
+		#page #corps #contact form table tr td {
+			width: 200px;
+		}
+		
+			#page #corps #contact form table tr td textarea {
+				width: 600px;
+				height: 100px;
+			}
+	
+		#page #corps #footer {
+			clear: both;
+			height: 30px;
+			background-color: #415dae;
+			color: white;
+			margin-top: 20px;
+		}
+		
+			#page #corps #footer a {
+				color: white;
+				margin-left: 20px;
+				margin-right: 20px;
+			}
